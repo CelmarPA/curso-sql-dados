@@ -69,6 +69,7 @@ CREATE TABLE `Estudante` (
 
 LOCK TABLES `Estudante` WRITE;
 /*!40000 ALTER TABLE `Estudante` DISABLE KEYS */;
+INSERT INTO `Estudante` VALUES (1563881,'Kaique de Almeida Castro','Av. Paulista, 790 - Bela Vista','São Paulo','2010-09-21','Valdemir Francisco Castro','Inês de Almeida Castro',NULL);
 /*!40000 ALTER TABLE `Estudante` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -107,4 +108,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-10-31 14:08:40
+-- Dump completed on 2025-11-03 13:30:49
